@@ -17,7 +17,7 @@ class PerforceProxy < Formula
     bin.install "p4p"
     (var+"p4p").mkpath
   end
-  
+
   plist_options :startup => true
 
   def caveats; <<-EOS.undent
